@@ -1,3 +1,5 @@
+use std::process;
+
 fn main() {
-    println!("Hello, world!");
+    let _args = cli::parse_args();
 }
